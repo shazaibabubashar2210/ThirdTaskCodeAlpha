@@ -1,0 +1,1409 @@
+@media all and (max-width: 350px) {
+  /*Header responsiveness*/
+  .nav-logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 0rem;
+  }
+  .nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 0.5rem;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .nav-items {
+    margin-top: 0.5rem;
+  }
+  .nav-items img {
+    margin-right: 8px;
+  }
+  /*Section About me*/
+  .about-me {
+    padding-top: 7rem;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-me-left {
+    width: 80%;
+    height: 20vh;
+    padding-left: 1rem;
+    margin-left: 0rem;
+    animation: none;
+  }
+  .about-me-left h1 {
+    font-size: 1.5rem;
+    color: var(--textcolor);
+  }
+
+  .move-element {
+    font-size: 1rem;
+    color: var(--move-color);
+  }
+  .about-me-right {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+    animation: none;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-right img {
+    height: 90%;
+    width: 65%;
+  }
+  /* Education Section Resposniveness  */
+  .box1 {
+    border: 2px solid var(--cap-color);
+    height: 27%;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+  .box1 h1 {
+    margin-bottom: 1rem;
+    color: var(--textcolor);
+    font-size: 0.5rem;
+  }
+  .box1 p {
+    color: var(--textcolor);
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  .box2 {
+    border: 2px solid var(--cap-color);
+    height: 27%;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+  .box2 h1 {
+    margin-bottom: 1rem;
+    color: var(--textcolor);
+    font-size: 0.5rem;
+  }
+  .box2 p {
+    color: var(--textcolor);
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  .box3 {
+    border: 2px solid var(--cap-color);
+    height: 27%;
+    border-radius: 20px;
+
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+  .box3 h1 {
+    margin-bottom: 1rem;
+    color: var(--textcolor);
+    font-size: 0.5rem;
+  }
+  .box3 p {
+    color: var(--textcolor);
+    text-align: left;
+    font-size: 0.5rem;
+  }
+  .cap1 {
+    top: 14%;
+    left: 82.5%;
+    font-size: 2rem;
+    color: var(--cap-color);
+  }
+  .cap2 {
+    top: 40%;
+    left: 83.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .cap3 {
+    top: 65%;
+    left: 82.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .study-content {
+    height: 65vh;
+    width: 56%;
+    margin-right: 1rem;
+    animation: 2s scale-in-center 0.7s linear;
+  }
+  /* Skill Section Responsiveness  */
+  .skill-section {
+    height: 75vh;
+  }
+  .skill-head {
+    height: 3rem;
+    width: 80vw;
+    margin: auto;
+    font-size: 0.7rem;
+  }
+  .skill-head h1 {
+    font-size: 1.2rem;
+  }
+  .skill-head i {
+    color: var(--cap-color);
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .skill-bars h1 {
+    color: var(--mycolor);
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .html-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .html-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: 68%;
+    font-size: 0.7rem;
+  }
+  .css-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .css-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 65%;
+    font-size: 0.7rem;
+  }
+  .js-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .js-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 55%;
+    font-size: 0.7rem;
+  }
+  .react-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .react-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    font-size: 0.7rem;
+  }
+  /* Project Section Responsiveness  */
+  .projects {
+    background-color: var(--background-color);
+    height: 110vh;
+    width: 100vw;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .projects h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+
+  .main-box {
+    height: 90vh;
+    width: 100vw;
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .html-project-box h2 {
+    margin: 0.5rem 0rem;
+    font-size: 0.6rem;
+  }
+  .html-project-box h2,
+  p {
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .image {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -31px;
+    left: 37%;
+    z-index: 2;
+  }
+  .html-project-box {
+    border: 2px solid var(--cap-color);
+    border-radius: 20px;
+    height: 27%;
+    width: 80%;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+  .btn {
+    background-color: var(--btn-background);
+    color: var(--btn-color);
+    padding: 0.6rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 0rem;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    width: 60%;
+  }
+  /* Contact Section Responsiveness  */
+  .contact-head h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: var(--textcolor);
+  }
+  .contact-head i {
+    color: var(--btn-background);
+    font-size: 1rem;
+  }
+  .contact-box span {
+    margin: 0.5rem 0rem;
+    font-size: 0.6rem;
+  }
+  form input {
+    width: 80%;
+    padding: 0.3rem 2rem;
+    font-size: 0.6rem;
+    background: none;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--textcolor);
+    display: block;
+    margin: 0.8rem auto;
+  }
+  .contact-box i {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .btn1 {
+    font-size: 0.6rem;
+  }
+  .btn2 {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+  }
+  /* footer section responsiveness  */
+  .footercontent p {
+    font-size: 0.6rem;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .social {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+@media all and (min-width:351px) and (max-width:500px)
+{
+  .nav-logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 0rem;
+  }
+  .nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 0.6rem;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .nav-items {
+    margin-top: 0.5rem;
+  }
+  .nav-items img {
+    margin-right: 8px;
+  }
+  /*Section About me*/
+  .about-me {
+    padding-top: 7rem;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-me-left {
+    width: 80%;
+    height: 20vh;
+    padding-left: 1rem;
+    margin-left: 0rem;
+    animation: none;
+  }
+  .about-me-left h1 {
+    font-size: 1.5rem;
+    color: var(--textcolor);
+  }
+
+  .move-element {
+    font-size: 1rem;
+    color: var(--move-color);
+  }
+  .about-me-right {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+    animation: none;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-right img {
+    height: 90%;
+    width: 45%;
+  }
+  /* Education Section Resposniveness  */
+  .box1 {
+    border: 2px solid var(--cap-color);
+    height: 22%;
+    border-radius: 20px;
+    padding: 0.7rem 1.2rem;
+    margin-top: 1rem;
+  }
+  .box1 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 0.6rem;
+  }
+  .box1 p {
+    font-size: 0.6rem;
+    text-align: left;
+  }
+  .box2 {
+    border: 2px solid var(--cap-color);
+    height: 22%;
+    border-radius: 20px;
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box2 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 0.6rem;
+  }
+  .box2 p {
+    color: var(--textcolor);
+    font-size: 0.6rem;
+    text-align: left;
+  }
+  .box3 {
+    border: 2px solid var(--cap-color);
+    height: 22%;
+    border-radius: 20px;
+
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box3 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 0.6rem;
+  }
+  .box3 p {
+    color: var(--textcolor);
+    text-align: left;
+    font-size: 0.6rem;
+  }
+  .cap1 {
+    top: 14%;
+    left: 86.5%;
+    font-size: 2rem;
+  }
+  .cap2 {
+    top: 34%;
+    left: 86.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .cap3 {
+    top: 55%;
+    left: 86.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .study-content {
+    height: 65vh;
+    width: 56%;
+    margin-right: 1rem;
+    animation: 2s scale-in-center 0.7s linear;
+  }
+  /* Skill Section Responsiveness  */
+  .skill-section {
+    height: 75vh;
+  }
+  .skill-head {
+    height: 3rem;
+    width: 80vw;
+    margin: auto;
+    font-size: 0.7rem;
+  }
+  .skill-head h1 {
+    font-size: 1.2rem;
+  }
+  .skill-head i {
+    color: var(--cap-color);
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .skill-bars h1 {
+    color: var(--mycolor);
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .html-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .html-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: 68%;
+    font-size: 0.7rem;
+  }
+  .css-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .css-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 65%;
+    font-size: 0.7rem;
+  }
+  .js-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .js-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 55%;
+    font-size: 0.7rem;
+  }
+  .react-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .react-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    font-size: 0.7rem;
+  }
+  /* Project Section Responsiveness  */
+  .projects {
+    background-color: var(--background-color);
+    height: 110vh;
+    width: 100vw;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .projects h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .main-box {
+    height: 90vh;
+    width: 100vw;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .html-project-box h2 {
+    margin: 0.5rem 0rem;
+    font-size: 0.7rem;
+  }
+  .html-project-box h2, p {
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .image {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -31px;
+    left: 40%;
+    z-index: 2;
+  }
+  .html-project-box {
+    border: 2px solid var(--cap-color);
+    border-radius: 20px;
+    height: 27%;
+    width: 80%;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+  .btn {
+    background-color: var(--btn-background);
+    color: var(--btn-color);
+    padding: 0.6rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 0rem;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    width: 60%;
+  }
+  /* Contact Section Responsiveness  */
+  .contact-head h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: var(--textcolor);
+  }
+  .contact-head i {
+    color: var(--btn-background);
+    font-size: 1rem;
+  }
+  .contact-box span {
+    margin: 0.5rem 0rem;
+    font-size: 0.6rem;
+  }
+  form input {
+    width: 80%;
+    padding: 0.3rem 2rem;
+    font-size: 0.6rem;
+    background: none;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--textcolor);
+    display: block;
+    margin: 0.8rem auto;
+  }
+  .contact-box i {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .btn1 {
+    font-size: 0.6rem;
+  }
+  .btn1 {
+    text-align: center;
+    color: var(--textcolor);
+    border: 2px solid var(--btn-background);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    width: 30%;
+  }
+  .btn2 {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+    width: 40%;
+  }
+  /* footer section responsiveness  */
+  .footercontent p {
+    font-size: 0.6rem;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .social {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+@media all and (min-width:501px) and (max-width:750px)
+{
+  .nav-logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 0rem;
+  }
+  .nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 0.5rem;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .nav-items {
+    margin-top: 0.5rem;
+  }
+  .nav-items img {
+    margin-right: 8px;
+  }
+  /*Section About me*/
+  .about-me {
+    padding-top: 7rem;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-me-left {
+    width: 80%;
+    height: 20vh;
+    padding-left: 1rem;
+    margin-left: 0rem;
+    animation: none;
+  }
+  .about-me-left h1 {
+    font-size: 1.5rem;
+    color: var(--textcolor);
+  }
+
+  .move-element {
+    font-size: 1rem;
+    color: var(--move-color);
+  }
+  .about-me-right {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+    animation: none;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-right img {
+    height: 90%;
+    width: 40%;
+  }
+  /* Education Section Resposniveness  */
+  .box1 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box1 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box1 p {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .box2 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box2 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box2 p {
+    color: var(--textcolor);
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .box3 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box3 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box3 p {
+    color: var(--textcolor);
+    text-align: left;
+    font-size: 0.7rem;
+  }
+  .cap1 {
+    top: 14%;
+    left: 90.5%;
+    font-size: 2rem;
+  }
+  .cap2 {
+    top: 40%;
+    left: 90.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .cap3 {
+    top: 65%;
+    left: 90.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .study-content {
+    height: 65vh;
+    width: 56%;
+    margin-right: 1rem;
+    animation: 2s scale-in-center 0.7s linear;
+  }
+  /* Skill Section Responsiveness  */
+  .skill-section {
+    height: 75vh;
+  }
+  .skill-head {
+    height: 3rem;
+    width: 80vw;
+    margin: auto;
+    font-size: 0.7rem;
+  }
+  .skill-head h1 {
+    font-size: 1.2rem;
+  }
+  .skill-head i {
+    color: var(--cap-color);
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .skill-bars h1 {
+    color: var(--mycolor);
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .html-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .html-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: 68%;
+    font-size: 0.7rem;
+  }
+  .css-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .css-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 65%;
+    font-size: 0.7rem;
+  }
+  .js-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .js-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 55%;
+    font-size: 0.7rem;
+  }
+  .react-bar {
+    height: 0.9rem;
+    width: 90%;
+  }
+  .react-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    font-size: 0.7rem;
+  }
+  /* Project Section Responsiveness  */
+  .projects {
+    background-color: var(--background-color);
+    height: 110vh;
+    width: 100vw;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .projects h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+
+  .main-box {
+    height: 90vh;
+    width: 100vw;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .html-project-box h2 {
+    margin: 0.5rem 0rem;
+    font-size: 0.6rem;
+  }
+  .html-project-box h2, p {
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .image {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -31px;
+    left: 42%;
+    z-index: 2;
+  }
+  .html-project-box {
+    border: 2px solid var(--cap-color);
+    border-radius: 20px;
+    height: 27%;
+    width: 80%;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+  .btn {
+    background-color: var(--btn-background);
+    color: var(--btn-color);
+    padding: 0.4rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    height: 1.5rem;
+    width: 0rem;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    width: 60%;
+  }
+  /* Contact Section Responsiveness  */
+  .contact-head h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: var(--textcolor);
+  }
+  .contact-head i {
+    color: var(--btn-background);
+    font-size: 1rem;
+  }
+  .contact-box span {
+    margin: 0.5rem 0rem;
+    font-size: 0.6rem;
+  }
+  form input {
+    width: 80%;
+    padding: 0.3rem 2rem;
+    font-size: 0.6rem;
+    background: none;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--textcolor);
+    display: block;
+    margin: 0.8rem auto;
+  }
+  .contact-box i {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .btn1 {
+    font-size: 0.6rem;
+  }
+  .btn1 {
+    text-align: center;
+    color: var(--textcolor);
+    border: 2px solid var(--btn-background);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    width: 30%;
+  }
+  .btn2 {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+    width: 40%;
+  }
+  /* footer section responsiveness  */
+  .footercontent p {
+    font-size: 0.6rem;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .social {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+@media all and (min-width:751px) and (max-width:1150px)
+{
+  .nav-logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 0rem;
+  }
+  .nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 0.7rem;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .nav-items {
+    margin-top: 0.5rem;
+  }
+  .nav-items img {
+    margin-right: 8px;
+  }
+  /*Section About me*/
+  .about-me {
+    padding-top: 7rem;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-me-left {
+    width: 80%;
+    height: 20vh;
+    padding-left: 1rem;
+    margin-left: 0rem;
+    animation: none;
+  }
+  .about-me-left h1 {
+    font-size: 1.5rem;
+    color: var(--textcolor);
+  }
+
+  .move-element {
+    font-size: 1rem;
+    color: var(--move-color);
+  }
+  .about-me-right {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+    animation: none;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-right img {
+    height: 90%;
+    width: 25%;
+  }
+  /* Education Section Resposniveness  */
+  .box1 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box1 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box1 p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .box2 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box2 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box2 p {
+    color: var(--textcolor);
+    font-size: 1rem;
+    text-align: left;
+  }
+  .box3 {
+    border: 2px solid var(--cap-color);
+    height: 25%;
+    border-radius: 20px;
+
+    padding: 0.7rem 0.7rem;
+    margin-top: 1rem;
+  }
+  .box3 h1 {
+    margin-bottom: 1.2rem;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+  .box3 p {
+    color: var(--textcolor);
+    text-align: left;
+    font-size: 1rem;
+  }
+  .cap1 {
+    top: 14%;
+    left: 92.5%;
+    font-size: 2rem;
+  }
+  .cap2 {
+    top: 40%;
+    left: 92.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .cap3 {
+    top: 65%;
+    left: 92.5%;
+    color: var(--cap-color);
+    font-size: 2rem;
+  }
+  .study-content {
+    height: 65vh;
+    width: 56%;
+    margin-right: 1rem;
+    animation: 2s scale-in-center 0.7s linear;
+  }
+  /* Skill Section Responsiveness  */
+  .skill-section {
+    height: 75vh;
+  }
+  .skill-head {
+    height: 3rem;
+    width: 80vw;
+    margin: auto;
+    font-size: 0.7rem;
+  }
+  .skill-head h1 {
+    font-size: 1.2rem;
+  }
+  .skill-head i {
+    color: var(--cap-color);
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .skill-bars h1 {
+    color: var(--mycolor);
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .html-bar {
+    height: 1rem;
+    width: 90%;
+  }
+  .html-circle {
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    font-size: 0.7rem;
+  }
+  .css-bar {
+    height: 1rem;
+    width: 90%;
+  }
+  .css-circle {
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 70%;
+    font-size: 0.7rem;
+  }
+  .js-bar {
+    height: 1rem;
+    width: 90%;
+  }
+  .js-circle {
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    left: 60%;
+    font-size: 0.7rem;
+  }
+  .react-bar {
+    height: 1rem;
+    width: 90%;
+  }
+  .react-circle {
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    font-size: 0.7rem;
+  }
+  /* Project Section Responsiveness  */
+  .projects {
+    background-color: var(--background-color);
+    height: 110vh;
+    width: 100vw;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .projects h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 1rem;
+  }
+
+  .main-box {
+    height: 90vh;
+    width: 100vw;
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .html-project-box h2 {
+    margin: 0.5rem 0rem;
+    font-size: 1.5rem;
+  }
+  .html-project-box h2, p {
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 1rem;
+  }
+  .image {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -31px;
+    left: 47%;
+    z-index: 2;
+  }
+  .html-project-box {
+    border: 2px solid var(--cap-color);
+    border-radius: 20px;
+    height: 27%;
+    width: 60%;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+  .btn {
+    background-color: var(--btn-background);
+    color: var(--btn-color);
+    padding: 0.4rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 0rem;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 60%;
+  }
+  /* Contact Section Responsiveness  */
+  .contact-head h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: var(--textcolor);
+  }
+  .contact-head i {
+    color: var(--btn-background);
+    font-size: 1rem;
+  }
+  .contact-box span {
+    margin: 0.5rem 0rem;
+    font-size: 1rem;
+  }
+  form input {
+    width: 80%;
+    padding: 0.3rem 2rem;
+    font-size: 0.6rem;
+    background: none;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--textcolor);
+    display: block;
+    margin: 0.8rem auto;
+  }
+  .contact-box i {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .btn1 {
+    font-size: 0.6rem;
+  }
+  .btn1 {
+    text-align: center;
+    color: var(--textcolor);
+    border: 2px solid var(--btn-background);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    width: 30%;
+  }
+  .btn2 {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+    width: 40%;
+  }
+  /* footer section responsiveness  */
+  .footercontent p {
+    font-size: 0.6rem;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .social {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+
+
